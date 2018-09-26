@@ -10,6 +10,6 @@ node{
    stage('Email Notification'){
       mail bcc: '', body: '''Hi Welcome to jenkins email alerts
       Thanks
-      Alan Zhang''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job', to: 'alan.zhang@securekey.com'
+      Alan Zhang''', cc: '', from: 'jenkins@securekey.com', replyTo: '', subject: 'Jenkins Job', to: 'alan.zhang@securekey.com'
    }
  }
